@@ -1,12 +1,43 @@
-body {
-background:#00BFFF;
+*{
+    margin: 0;
+    padding: 0;
 }
-h1 {
-text-align: center;
+
+.cabeçalho{
+    background-color: #AAA79D;
+    color:#737373;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
-p {
-text-align: center;
+
+.cabeçalho-título{
+    width: 100%;
 }
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.Jogo{
+    background-image: linear-gradient(#CBC8BA);
+    color: #645732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Jogo-div-conteudo{
+    width: 35%;
+}
+.Jogo-título{
+    padding: 24px 0;
+}
+
 em strong {
 color: RoyalBlue;
 }
